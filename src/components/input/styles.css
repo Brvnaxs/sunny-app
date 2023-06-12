@@ -1,0 +1,14 @@
+input{
+    border-radius: 23px;
+    margin: 15px;
+    min-width: 70px;
+    width: fit-content;
+    height: 40px;
+    align-self: center;
+    background-color: radial-gradient(86.8% 325.5% at 8% 0%, #FFFFFF 0%, #FFFCE8 100%);
+    padding: 5px;
+    border: none;
+    box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
+    color: aqua;
+    font-size: 16rem;
+}

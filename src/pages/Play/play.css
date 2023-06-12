@@ -1,0 +1,63 @@
+.Play{
+    display: flex;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: fit-content;
+    height: 100vh;
+}
+.main{
+    width: 60%;
+    min-height: 100%;
+    background-color: #F9DBFF;
+    display: flex;
+    flex-direction: column;
+}
+.main img{
+    align-self: center;
+    margin-top: 40%;
+}
+.inicio h1{
+    font-family: 'Atma';
+    font-size: 25px;
+    font-weight: 600;
+    color: #343434;
+    margin-bottom: 14px;
+    margin-left: 30px;
+}
+.inicio h2{
+    font-family: 'Leelawadee UI';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+/* or 16px */
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+margin-bottom: 14px;
+margin-left: 30px;
+color: #8E8E8E;
+}
+.main-letra{
+    height: 163.19px;
+width: 163.19px;
+}
+.alfabeto{
+    width: 40%;
+    height: 100%;
+    min-height: fit-content;
+    display: grid;
+    grid-template-columns: 39px 39px;
+    background-color: #F9E6E6;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.alfabeto button{
+    background: none;
+    border: none;
+    height: 39px;
+    width: 39px;
+}
+.Play button:focus{
+    border: none;
+    outline: none;
+}

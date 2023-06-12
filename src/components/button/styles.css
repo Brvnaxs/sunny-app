@@ -1,0 +1,12 @@
+button {
+    background: radial-gradient(86.8% 325.5% at 8% 0%, #F5A598 0%, #F090B8 100%);
+    border: none;
+    border-radius: 23px;
+    color: white;
+    font-weight: 14px;
+    width: fit-content;
+    height: 40px;
+    align-self: center;
+    margin: 15px;
+    box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
+}

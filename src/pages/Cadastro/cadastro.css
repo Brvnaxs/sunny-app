@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Lato&display=swap');
+.Cadastro{
+    background-color: #FFFCE8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 600px;width: 600px;
+    min-height: fit-content;
+}
+
+.Cadastro input{
+    border-radius: 43px;
+    height: 60px;
+    width: 334px;
+    align-self: center;
+    background-color: radial-gradient(86.8% 325.5% at 8% 0%, #FFFFFF 0%, #FFFCE8 100%);
+    padding: 15px;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
+    outline: none;
+}
+p{
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin-left: 130px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.criar-conta{
+    height: 67px;
+    width: 162px;
+    align-self: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('../../assets/nuvens.png');
+    background-size: 100% 150px;
+}
+.boneco{
+    height: 174px;
+    width: 309px;
+    align-self: center;
+    margin-left: 30px;
+}
+.termos{
+    text-decoration: underline;
+    color: #9A35EB;
+    align-self: center;
+}
+button{
+    background: radial-gradient(86.8% 325.5% at 8% 0%, #F5A598 0%, #F090B8 100%);
+    border: none;
+    border-radius: 43px;
+    color: white;
+    font-weight: 14px;
+    width: 282px;
+    height: 56px;
+    align-self: center;
+    margin: 15px;
+    box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
+}
+.link-login{
+    align-self: center;
+    margin-bottom: 30px;
+}
+.logos{
+    display: flex;
+    width: 70px;
+    align-self: center;
+    justify-content: space-between;
+}
+.logos img{
+    height: 30px;
+    width: 30px;
+}

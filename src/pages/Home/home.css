@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Lato&display=swap');
+.Home{
+    background-color: #D99BFF;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: fit-content;
+}
+.Home header{
+    margin-top: 35px;
+    height: 135px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url('../../assets/nuvens.png');
+    background-size: 100% 150px;
+}
+.Home header img{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+}
+.Home header p{
+    font-family: 'Atma';
+    font-weight: 700;
+    font-size: 14px;
+}
+.menu{
+    display: flex;
+    flex-grow: 2; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    height: fit-content;
+    align-self: center;
+}
+.card{
+    border-radius: 10px;
+    background-color: #F8E8FB;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0px 7px 22px 0px rgba(204, 143, 216, 0.55);
+    margin: 5px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    cursor: pointer;
+    height: 189px;
+width: 152px;
+
+}
+.card h2{
+    font-size: 0.87rem;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+.card span{
+    font-size: 0.62rem;
+}

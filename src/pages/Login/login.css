@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Lato&display=swap');
+/*OK: Faltam pequenos reparos nos tamanhos */
+.Login {
+    background-color: #FFFCE8;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 600px;
+    min-height: fit-content;
+}
+
+.logo {
+    width: 90%;
+    height: 220px;
+    align-self: center;
+}
+
+.Login h1 {
+    align-self: center;
+    font-family: 'Atma', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+}
+
+.Login input {
+    border-radius: 43px;
+    margin: 15px;
+    height: 60px;
+    width: 282px;
+    align-self: center;
+    background-color: radial-gradient(86.8% 325.5% at 8% 0%, #FFFFFF 0%, #FFFCE8 100%);
+    padding: 15px;
+    border: none;
+    box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
+    outline: none;
+}
+
+input[type="range"] {
+    background: #f1c0fe;
+    appearance: none;
+    border-radius: 23px;
+    width: 31px;
+    height: 18px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background: white;
+}
+
+.Login button {
+    background: radial-gradient(86.8% 325.5% at 8% 0%, #F5A598 0%, #F090B8 100%);
+    border: none;
+    border-radius: 23px;
+    color: white;
+    font-weight: 14px;
+    width: 282px;
+    height: 56px;
+    align-self: center;
+    margin: 15px;
+    box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
+}
+
+.lembrar-me {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: 12px;
+    font-family: 'Lato';
+    font-weight: 700;
+    color: #000000CC;
+    letter-spacing: 0.05em;
+}
+
+.esqueceu-senha {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #000000;
+    align-self: center;
+}
+.link-cadastro{
+    margin-bottom: 1.87rem;
+    font-size: 0.75rem;
+    align-self: center;
+    font-family: 'Lato';
+    align-self: center;
+}
+footer{
+align-self: center;
+background-image: url('../../assets/nuvens.png');
+background-size: 100% 150px;
+background-repeat: no-repeat;
+width: 100%;
+display: flex;
+justify-content: center;
+}
+footer img{
+    margin-bottom: -5vh;
+    align-self: center;
+}
