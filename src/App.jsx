@@ -1,11 +1,13 @@
 
 import Home from "./pages/Home/Home"
 import Play from "./pages/Play/Play"
-function App() {
+import Login from "./pages/Login/Login"
+import './App.css'
+function App(){
 
   return (
     <>
-    <Play></Play>
+    <Login></Login>
     </>
   )
 }

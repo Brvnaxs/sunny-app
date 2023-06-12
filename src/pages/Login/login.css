@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Atma&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@400;600&family=Lato:wght@400;700&display=swap');
+
+
 /*OK: Faltam pequenos reparos nos tamanhos */
 .Login {
     background-color: #FFFCE8;
@@ -11,23 +13,29 @@
 }
 
 .logo {
-    width: 90%;
-    height: 220px;
+    width: 94%;
+    height: 20.527859vh;
+    /* 210/1023 */
     align-self: center;
 }
 
-.Login h1 {
+.sunny {
     align-self: center;
-    font-family: 'Atma', sans-serif;
-    font-size: 30px;
-    text-align: justify;
+    height: 5.865103vh;
+    /* 60px/1023 */
+    width: 11.241447vw;
+    /* 115px/1023 */
+    margin-bottom: 15px;
 }
 
 .Login input {
     border-radius: 43px;
     margin: 15px;
-    height: 60px;
-    width: 282px;
+    height: 5.865103vh;
+    /* 60px/1023 */
+    ;
+    width: 14.173998vw;
+    /* 145px/1023 */
     align-self: center;
     background-color: radial-gradient(86.8% 325.5% at 8% 0%, #FFFFFF 0%, #FFFCE8 100%);
     padding: 15px;
@@ -40,14 +48,18 @@ input[type="range"] {
     background: #f1c0fe;
     appearance: none;
     border-radius: 23px;
-    width: 31px;
-    height: 18px;
+    width: 2.443793vw;
+    /* 25px/1023 */
+    height: 0.977517vh;
+    /* 10px/1023 */
 }
 
 input[type="range"]::-webkit-slider-thumb {
     appearance: none;
-    height: 18px;
-    width: 18px;
+    height: 2.248289vh;
+    /* 23px/1023 */
+    width: 0.977517vw;
+    /* 10px/1023 */
     border-radius: 50%;
     background: white;
 }
@@ -58,8 +70,11 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 23px;
     color: white;
     font-weight: 14px;
-    width: 282px;
-    height: 56px;
+    height: 5.865103vh;
+    /* 60px/1023 */
+    ;
+    width: 14.173998vw;
+    /* 145px/1023 */
     align-self: center;
     margin: 15px;
     box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
@@ -70,7 +85,7 @@ input[type="range"]::-webkit-slider-thumb {
     justify-content: center;
     align-self: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Lato';
     font-weight: 700;
     color: #000000CC;
@@ -89,23 +104,37 @@ input[type="range"]::-webkit-slider-thumb {
     color: #000000;
     align-self: center;
 }
-.link-cadastro{
+
+.link-cadastro {
     margin-bottom: 1.87rem;
     font-size: 0.75rem;
     align-self: center;
     font-family: 'Lato';
     align-self: center;
 }
-footer{
-align-self: center;
-background-image: url('../../assets/nuvens.png');
-background-size: 100% 150px;
-background-repeat: no-repeat;
-width: 100%;
-display: flex;
-justify-content: center;
+
+footer {
+    align-self: center;
+    background-image: url('../../assets/nuvens.png');
+    background-size: 100% 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-repeat: repeat-x, repeat-x;
+    animation: nuvens 5s linear infinite;
 }
-footer img{
+
+footer img {
     margin-bottom: -5vh;
     align-self: center;
+}
+
+@keyframes nuvens {
+    0% {
+        background-position: 0 0, 0 0;
+    }
+
+    100% {
+        background-position: 100% 0, 100% 0;
+    }
 }
