@@ -15,7 +15,7 @@ export default function Login(){
                 <span>Lembrar-me</span>
                 <input type="range" name="" id="" />
             </div>
-            <button>Ir</button>
+            <button>IR</button>
             {/* //cadastre-se = roxo */}
             <span className='link-cadastro'>NÃO TEM UMA CONTA? <font color="#9A35EB">CADASTRE-SE JÁ</font></span>
             <footer>

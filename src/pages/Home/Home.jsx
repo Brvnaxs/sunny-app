@@ -5,12 +5,21 @@ import formas from '../../assets/formas.png'
 import desempenho from '../../assets/desempenho.png'
 import foguete from '../../assets/foguete.png'
 import config from '../../assets/config.png'
+import user from '../../assets/image 3.png'
+import menu from '../../assets/menu-icon.png'
+import search from '../../assets/search.png'
 export default function Home(){
     return(
         <div className='Home'>
             <header>
-                <img src={abc} alt="" />
-                <p>Olá, user@! Seja bem-vindo</p>
+                <div className='header-section-one'>
+                <img src={user} alt="" />
+                <p>Seja Bem Vindo!</p>
+                <div className='icones'>
+                    <img className='icon' src={search} alt="" />
+                    <img src={menu} alt="" />
+                </div>
+                </div>
             </header>
             <div className='menu'>
                 <div className='card'>

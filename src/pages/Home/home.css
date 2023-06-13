@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Atma&family=Lato&display=swap');
 .Home{
-    background-color: #D99BFF;
+    background-color: #E6E1F8;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -23,16 +23,27 @@
     background-image: url('../../assets/nuvens.png');
     background-size: 100% 150px;
 }
-.Home header img{
+.header-section-one p{
+    font-family: 'Atma', sans-serif;
+    font-weight: 800;
+    margin-right: 60px;
+}
+.header-section-one img{
     height: 64px;
     width: 64px;
     border-radius: 50%;
+    margin-left: 25px;
 }
-.Home header p{
-    font-family: 'Atma';
-    font-weight: 700;
-    font-size: 14px;
+.header-section-one{
+    display: flex;
+    align-items: center;
 }
+
+.icones img{
+    height: 39px;
+    width: 39px;
+}
+
 .menu{
     display: flex;
     flex-grow: 2; 
@@ -60,6 +71,10 @@
     height: 189px;
 width: 152px;
 
+}
+.card img{
+    height: 70px;
+    width: 70px;
 }
 .card h2{
     font-size: 0.87rem;

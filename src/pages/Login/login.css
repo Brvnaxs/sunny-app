@@ -21,7 +21,7 @@
 
 .sunny {
     align-self: center;
-    height: 5.865103vh;
+    height: clamp(220px, 224px);
     /* 60px/1023 */
     width: 11.241447vw;
     /* 115px/1023 */
@@ -31,10 +31,10 @@
 .Login input {
     border-radius: 43px;
     margin: 15px;
-    height: 5.865103vh;
+    height: clamp(25px, 35px, 45px);
     /* 60px/1023 */
     ;
-    width: 14.173998vw;
+    width: clamp(250px, 282px, 282px);
     /* 145px/1023 */
     align-self: center;
     background-color: radial-gradient(86.8% 325.5% at 8% 0%, #FFFFFF 0%, #FFFCE8 100%);
@@ -48,17 +48,18 @@ input[type="range"] {
     background: #f1c0fe;
     appearance: none;
     border-radius: 23px;
-    width: 2.443793vw;
+    width: 33px;
     /* 25px/1023 */
-    height: 0.977517vh;
+    height: 15px;
     /* 10px/1023 */
+    padding: 0%;
 }
 
 input[type="range"]::-webkit-slider-thumb {
     appearance: none;
-    height: 2.248289vh;
+    height: 13px;
     /* 23px/1023 */
-    width: 0.977517vw;
+    width: 13px;
     /* 10px/1023 */
     border-radius: 50%;
     background: white;
@@ -70,11 +71,8 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 23px;
     color: white;
     font-weight: 14px;
-    height: 5.865103vh;
-    /* 60px/1023 */
-    ;
-    width: 14.173998vw;
-    /* 145px/1023 */
+    height: clamp(30px, 40px, 50px);
+    width: clamp(150px, 182px, 182px);
     align-self: center;
     margin: 15px;
     box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
