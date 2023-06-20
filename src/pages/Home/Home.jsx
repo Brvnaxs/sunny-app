@@ -1,4 +1,5 @@
 import './home.css';
+import { Link, useNavigate } from "react-router-dom";
 import abc from '../../assets/abc.png'
 import numeros from '../../assets/numeros.png'
 import formas from '../../assets/formas.png'
@@ -11,7 +12,7 @@ import search from '../../assets/search.png'
 export default function Home(){
     return(
         <div className='Home'>
-            <header>
+            <header className='home-header'>
                 <div className='header-section-one'>
                 <img src={user} alt="" />
                 <p>Seja Bem Vindo!</p>
@@ -22,11 +23,13 @@ export default function Home(){
                 </div>
             </header>
             <div className='menu'>
+                <Link to="/letras-e-vogais">
                 <div className='card'>
                     <img src={abc} alt="" />
                     <h2>Vogais e letras</h2>
                     <span>(bem vindo as vogais e letras)</span>
                 </div>
+                </Link>
                 <div className='card'>
                     <img src={numeros} alt="" />
                     <h2>Números</h2>

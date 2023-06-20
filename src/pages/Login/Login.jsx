@@ -1,9 +1,14 @@
 import './login.css';
+import { Link, useNavigate } from "react-router-dom";
 import logologin from '../../assets/logoLogin.png'
 import sunny from '../../assets/sunny education (2).png'
 import footerimage from '../../assets/footerLogin.png'
 
 export default function Login(){
+    const navigate = useNavigate()
+    function test(){
+        navigate('/home')
+    }
     return(
         <div className='Login'>
             <img className='logo' src={logologin} alt="" />
@@ -15,9 +20,9 @@ export default function Login(){
                 <span>Lembrar-me</span>
                 <input type="range" name="" id="" />
             </div>
-            <button>IR</button>
+            <button onClick={test}>IR</button>
             {/* //cadastre-se = roxo */}
-            <span className='link-cadastro'>NÃO TEM UMA CONTA? <font color="#9A35EB">CADASTRE-SE JÁ</font></span>
+            <Link to="/cadastro" className='link-cadastro'>NÃO TEM UMA CONTA? <font color="#9A35EB">CADASTRE-SE JÁ</font></Link>
             <footer>
                 <img src={footerimage} alt="" />
             </footer>

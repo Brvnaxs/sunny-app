@@ -5,10 +5,15 @@
     justify-content: center;
     flex-direction: column;
     min-width: 300px;
-    max-width: 600px;width: 600px;
+    max-width: 600px;
     min-height: fit-content;
 }
-
+@media (min-width: 1023px) {
+    .Cadastro{
+        height: 100vh;
+        width: 400px;
+    }
+}
 .Cadastro input{
     border-radius: 43px;
     height: 60px;
@@ -34,12 +39,13 @@ p{
     width: 162px;
     align-self: center;
 }
-header{
+.cadastro-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-image: url('../../assets/nuvens.png');
     background-size: 100% 150px;
+    background-repeat: no-repeat;
 }
 .boneco{
     height: 174px;

@@ -1,14 +1,15 @@
 import './cadastro.css';
+import { Link, useNavigate } from "react-router-dom";
 import boneco from '../../assets/boneco.png'
 import criarconta from '../../assets/CRiar conta.png'
 import apple from '../../assets/apple 1.png'
 import gmail from '../../assets/gmail 1.png'
 
-// OK: faltam pequenos reparos na responsividade
 export default function Cadastro() {
+    const navigate = useNavigate()
     return (
         <div className='Cadastro'>
-            <header>
+            <header className='cadastro-header'>
                 <img className='boneco' src={boneco} alt="" />
                 <img className='criar-conta' src={criarconta} alt="" />
             </header>
@@ -24,7 +25,7 @@ export default function Cadastro() {
                 <img src={gmail} alt="" />
                 <img src={apple} alt="" />
             </div>
-            <span className='link-login'>Possui uma conta? Faça aqui seu login</span>
+            <Link to="/" className='link-login'>Possui uma conta? Faça aqui seu login</Link>
         </div>
     )
 }
