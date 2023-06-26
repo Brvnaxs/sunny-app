@@ -7,7 +7,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    min-width: 300px;
+    width: 400px;
     max-width: 600px;
     min-height: fit-content;
 }
@@ -19,7 +19,7 @@
 }
 .logo {
     width: 377px;
-    height: 158px;
+    height: 130px;
     align-self: center;
 }
 
