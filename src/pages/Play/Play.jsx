@@ -1,6 +1,7 @@
 import './play.css'
+import { Link } from "react-router-dom";
 import letras from '../../audios/audios'
-import a from '../../assets/letras/a.png'
+import a from '../../assets/a.png'
 import seta from '../../assets/left-arrow.png'
 import { useRef, useState } from 'react'
 import ReactHowler from 'react-howler'
@@ -18,15 +19,17 @@ export default function Play(){
         <div className='Play'>
             <section className='main'>
                 <div className='inicio'>
-                    <button className='button-voltar'>
+                    <Link to='/home'>
+                    <button className='main-button'>
                         <img src={seta} alt="" />
                     </button>
-                    <h1>letras</h1>
-                    <h2>ESCUTE A LETRA OU VOGAL, E DEPOIS REPITA COM SUA VOZ APÓS O BEEP</h2>
+                    </Link>
+                    <h1 className='main-h1'>letras</h1>
+                    <h2 className='main-h2'>ESCUTE A LETRA OU VOGAL, E DEPOIS REPITA COM SUA VOZ APÓS O BEEP</h2>
                 </div>
                 <img className='main-letra' src={MainLetter} alt="" />
                 <ReactHowler src={MainAudio}
-                playing={true}>
+                >
                 </ReactHowler>
             </section>
             <section className='alfabeto'>

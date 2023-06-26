@@ -20,7 +20,7 @@ export default function Cadastro() {
             <p>Confirmar senha</p>
             <input type="text" placeholder='Certifique-se que estão iguais.' />
             <span className='termos'>Termos e condições & privacidade do usuário</span>
-            <button>Continuar</button>
+            <button className='cadastro-button'>Continuar</button>
             <div className='logos'>
                 <img src={gmail} alt="" />
                 <img src={apple} alt="" />

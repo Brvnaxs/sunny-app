@@ -3,17 +3,42 @@
     width: 400px;
     height: 100vh;
 }
-.button-voltar{
+.main-button{
     background: none;
     cursor: pointer;
     border: none;
     box-shadow: none;
+    margin: 0%;
+    padding: 0%;
+}
+.main-button img{
+    width: 63px;
+    height: 52px;
+}
+.inicio{
+    margin-left: 30px;
+}
+.main{
+    background-color: #F9DBFF;
+    display: flex;
+    flex-direction: column;
+}
+.main-h1{
+    font-size: 25px;
+    font-family: 'Atma', sans-serif;
+}
+.main-h2{
+    color: #8E8E8E;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 16px;
+    width: 108px;
 }
 .alfabeto{
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
     width: 40%;
+    background-color: #F9E6E6;
 }
 .alfabeto-button{
     height: 39px;
@@ -22,4 +47,15 @@
     cursor: pointer;
     border: none;
     box-shadow: none;
+    padding: 17px  17px;
+}
+.alfabeto-button img{
+    height: 39px;
+    width: 39px;
+}
+.main-letra{
+    align-self: center;
+    width: 153px;
+    height: 153px;
+    margin: 10px;
 }

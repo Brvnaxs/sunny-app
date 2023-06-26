@@ -58,7 +58,7 @@ p{
     color: #9A35EB;
     align-self: center;
 }
-button{
+.cadastro-button{
     background: radial-gradient(86.8% 325.5% at 8% 0%, #F5A598 0%, #F090B8 100%);
     border: none;
     border-radius: 43px;
