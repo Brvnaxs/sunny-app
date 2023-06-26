@@ -15,14 +15,11 @@
     .Login{
         height: 100vh;
         width: 400px;
-        overflow-y: hidden;
-        overflow-x: hidden;
     }
 }
 .logo {
-    width: 94%;
-    height: 20.527859vh;
-    /* 210/1023 */
+    width: 377px;
+    height: 158px;
     align-self: center;
 }
 
@@ -41,7 +38,7 @@
     height: clamp(25px, 35px, 45px);
     /* 60px/1023 */
     ;
-    width: clamp(250px, 282px, 282px);
+    width: 250px;
     /* 145px/1023 */
     align-self: center;
     background-color: radial-gradient(86.8% 325.5% at 8% 0%, #FFFFFF 0%, #FFFCE8 100%);
@@ -78,8 +75,8 @@ input[type="range"]::-webkit-slider-thumb {
     border-radius: 23px;
     color: white;
     font-weight: 14px;
-    height: clamp(30px, 40px, 50px);
-    width: clamp(150px, 182px, 182px);
+    height: 40px;
+    width: 150px;
     align-self: center;
     margin: 15px;
     box-shadow: 0px 7px 22px 0px rgba(212, 70, 241, 0.55);
@@ -132,6 +129,7 @@ footer {
 footer img {
     margin-bottom: -5vh;
     align-self: center;
+    height: 171px;
 }
 
 @keyframes nuvens {
